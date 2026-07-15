@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+
+  portfolio:
+
+    image: devops-portfolio:v1
+
+    container_name: portfolio
+
+    ports:
+      - "8080:80"
+
+    restart: unless-stopped
