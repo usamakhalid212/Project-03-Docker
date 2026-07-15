@@ -1,0 +1,19 @@
+                 User
+                   │
+                   ▼
+              Web Browser
+                   │
+         http://localhost:8080
+                   │
+                   ▼
+         Docker Engine (Port Mapping)
+              8080 ─────► 80
+                   │
+                   ▼
+      Portfolio Container (Nginx)
+                   │
+                   ▼
+      /usr/share/nginx/html/
+                   │
+                   ▼
+         HTML • CSS • JavaScript
